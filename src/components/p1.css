@@ -1,0 +1,162 @@
+.app-container {
+    background-image: url('../images/background-image.png');
+    position: absolute;
+    width: 1280px;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  .app-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+  
+    position: absolute;
+    width: 603px;
+    height: 20px;
+    left: 500px;
+    top: 45px;
+  
+  
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+  
+    color: #000000;
+  
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .app-header {
+    position: absolute;
+    width: 500px;
+    height: 406px;
+    left: 200px;
+    top: 80px;
+    font-size: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 30px;
+  }
+
+  
+  .app-body {
+    position: absolute;
+    width: 502px;
+    height: 73px;
+    left: 194px;
+    top: 375px;
+  
+    background: #FFFF;
+    border-radius: 8px;
+  }
+  
+  .app-body-content {
+    position: absolute;
+    width: 136px;
+    height: 61px;
+    left: 360px;
+    top: 6px;
+  
+    background: #FC2947;
+    border-radius: 8px;
+  }
+  
+  .app-body-info {
+    position: absolute;
+    width: 300px;
+    height: 36px;
+    left: 25px;
+    top: 0.5px;
+  
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+  }
+  
+  .app-body-content-info {
+    position: absolute;
+    width: 61px;
+    height: 36px;
+    left: 40px;
+    top: 0px;
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    color: #FFFF
+  }
+  
+  .button-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    left: 1140px;
+    top: 40px;
+    background: #F84646;
+    border-radius: 5px;
+  }
+
+  .nav-container {
+    right: 15%;
+    position: absolute;
+    top: 30px;
+    /* transition: border-radius 0.3s ease; */
+    /* background-color: #f1f1f1; */
+    transition: all 0.3s ease;
+  }
+
+.nav-container li{
+    display: inline;
+    /* float: right; */
+    padding: 12px;
+    margin: 8px;
+}
+
+.app-body-content2 {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  left: 1110px;
+  top: 37px;
+
+  background: #FC2947;
+  border-radius: 8px;
+}
+
+.app-body-content-info2 {
+  position: relative;
+  width: 61px;
+  height: 36px;
+  left: 6px;
+  bottom: 13px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  color: #FFFF
+}
